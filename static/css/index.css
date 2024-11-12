@@ -1,0 +1,239 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+    /* Container for the GIF and text */
+    .gif-container {
+      position: relative;
+
+      text-align: center;
+    }
+
+    /* Style for the text, hidden by default */
+    .centered-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 1.5em;
+      font-weight: bold;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+      opacity: 0;
+      transition: opacity 0.3s ease; /* Smooth transition for text appearance */
+    }
+
+    /* Show the text when hovering over the container */
+    .gif-container:hover .centered-text {
+      opacity: 1;
+    }
+
+    /* Style for the GIF image */
+    .gif-image {
+      width: 200%;
+
+    }
+
+.footer .icon-link {
+    font-size: 25px;
+    color: #000;
+}
+
+.link-block a {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.dnerf {
+  font-variant: small-caps;
+}
+
+
+.teaser .hero-body {
+  padding-top: 0;
+  padding-bottom: 3rem;
+}
+/* Title Section Styles */
+.title-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 24px; /* Adjust font size as needed */
+}
+.table-header {
+    font-size: 25px; /* Adjust font size as needed */
+    padding: 10px;
+    font-weight: bold;
+    text-align: center; /* Center alignment */
+}
+
+/* Title Section Styles */
+.title-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 24px; /* Adjust font size as needed */
+}
+
+/* Table Section Styles */
+.table-section {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Table Row, Header, and Data Styles */
+.table-row {}
+
+
+.table-data {
+    padding: 10px; /* Adjust padding as needed */
+    text-align: center; /* Center alignment for table data */
+
+}
+/* Additional Styles to Ensure Centering */
+.table-header,
+.table-data {
+    vertical-align: middle; /* Aligns content vertically in the center */
+}
+.teaser {
+  font-family: 'Google Sans', sans-serif;
+}
+
+
+.publication-title {
+}
+
+.publication-banner {
+  max-height: parent;
+
+}
+
+.publication-banner video {
+  position: relative;
+  left: auto;
+  top: auto;
+  transform: none;
+  object-fit: fit;
+}
+
+.publication-header .hero-body {
+}
+
+.publication-title {
+    font-family: 'Google Sans', sans-serif;
+}
+
+.publication-authors {
+    font-family: 'Google Sans', sans-serif;
+}
+
+.publication-venue {
+    color: #555;
+    width: fit-content;
+    font-weight: bold;
+}
+
+.publication-awards {
+    color: #ff3860;
+    width: fit-content;
+    font-weight: bolder;
+}
+
+.publication-authors {
+}
+
+.publication-authors a {
+   color: hsl(204, 86%, 53%) !important;
+}
+
+.publication-authors a:hover {
+    text-decoration: underline;
+}
+
+.author-block {
+  display: inline-block;
+}
+
+.publication-banner img {
+}
+
+.publication-authors {
+  /*color: #4286f4;*/
+}
+
+.publication-video {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+
+    overflow: hidden;
+    border-radius: 10px !important;
+}
+
+.publication-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.publication-body img {
+}
+
+.results-carousel {
+  overflow: hidden;
+}
+
+.results-carousel .item {
+  margin: 5px;
+  overflow: hidden;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+  padding: 0;
+  font-size: 0;
+}
+
+.results-carousel video {
+  margin: 0;
+}
+
+
+.interpolation-panel {
+  background: #f5f5f5;
+  border-radius: 10px;
+}
+
+.interpolation-panel .interpolation-image {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.interpolation-video-column {
+}
+
+.interpolation-panel .slider {
+  margin: 0 !important;
+}
+
+.interpolation-panel .slider {
+  margin: 0 !important;
+}
+
+#interpolation-image-wrapper {
+  width: 100%;
+}
+#interpolation-image-wrapper img {
+  border-radius: 5px;
+}
